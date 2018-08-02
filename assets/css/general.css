@@ -1,0 +1,114 @@
+/* General CSS */
+
+/* Icon Formatting */
+
+.landing-page .section-features .card {
+    width: 100%;
+    min-height: 225px !important;
+    max-height: 225px !important;
+}
+
+/* Table */
+
+.landing-page .wrapper {
+    text-align: left;
+}
+
+/* Colors */
+
+.section-green {
+    background-color: #eaecea;
+}
+
+.landing-page .carousel-indicators.carousel-indicators-green li {
+    border-color: #304234;
+}
+
+.landing-page .carousel-indicators.carousel-indicators-green .active {
+    background-color: #304234;
+}
+
+.filter-gradient.green:after {
+    background: #304234;
+    /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #304234 0%, #304234);
+    /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #304234), color-stop(0%, #304234), color-stop(100%, #304234), color-stop(100%, #304234), color-stop(100%, #304234), color-stop(100%, #304234), color-stop(100%, #304234));
+    /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #304234 0%, #304234 0%, #304234 100%, #304234 100%, #304234 100%, #304234 100%, #304234 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, #304234 0%, #304234 0%, #304234 100%, #304234 100%, #304234 100%, #304234 100%, #304234 100%);
+    /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #304234 0%, #304234 0%, #304234 100%, #304234 100%, #304234 100%, #304234 100%, #304234 100%);
+    /* IE10+ */
+    background: radial-gradient(ellipse at center, #304234 0%, #304234 0%, #304234 100%, #304234 100%, #304234 100%, #304234 100%, #304234 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#304234', endColorstr='#304234', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.landing-page .section-features .card.card-green {
+    border-color: #304234;
+}
+
+.landing-page .section-features .card.card-green .icon i {
+    color: #304234;
+}
+
+.fixed-plugin .badge-green {
+    background-color: #304234;
+}
+
+/* Card Links */
+
+.landing-page .section-features .card {
+    color: #333 !important;
+    background-color: #eaecea;
+    border: 1px solid #eaecea;
+    transition: all 0.75s;
+}
+
+.landing-page .section-features .card:hover {
+    background-color: #acb3ad;
+    border: 1px solid #acb3ad;
+    transition: all 0.75s;
+}
+
+.landing-page .section-features .card .icon i {
+    color: #333 !important;
+}
+
+.card a {
+    color: #333 !important;
+    text-decoration: none !important;
+}
+
+.card a:hover,
+a:focus {
+    color: #333 !important;
+    text-decoration: none !important;
+}
+
+.card a:active,
+a:hover {
+    color: #333 !important;
+    text-decoration: none !important;
+}
+
+/* Product Link Color */
+
+.featured-products a {
+    color: #333 !important;
+    text-decoration: underline !important;
+}
+
+.featured-products a:hover,
+a:focus {
+    color: #333 !important;
+    text-decoration: none !important;
+}
+
+.featured-products a:active,
+a:hover {
+    outline: 0;
+}
