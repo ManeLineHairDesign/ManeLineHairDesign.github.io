@@ -112,3 +112,13 @@ a:focus {
 a:hover {
     outline: 0;
 }
+
+.landing-page .section-presentation img{
+    display:none;
+}
+
+@media (min-width: 1000px) {
+    .landing-page .section-presentation img{
+        display: inline-block;
+    }
+}
